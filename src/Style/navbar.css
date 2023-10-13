@@ -1,0 +1,118 @@
+.navbar {
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5px;
+    /* background-color: red; */
+}
+.left{
+    width:865px;
+    height:90px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    
+}
+.menus{
+    
+    padding-right: 10px;
+    
+    
+     
+}
+.dazeicon{
+    margin-left: 200px;
+    margin-right: 7px;
+}
+.navbar a{
+   
+    text-decoration: none;
+   color: black;
+   border: 5px;
+    padding:5px ;
+
+}
+
+  .right{
+width: 449px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+.right input{
+
+    width: 49px;
+    height: 18px;
+  }
+  .menus select{
+    border: none;
+    outline: none;
+  }
+  .singleline{
+    width:1px;
+    height: 50px;
+    
+    background-color: #DADADA;
+    align-self: center;
+   
+    
+}
+
+.dazeicon button{
+  border: none;
+  outline: none;
+  background-color: white;
+  padding-top: 8px;
+  cursor: pointer;
+}
+.searchbox{
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+.searchbox button{
+  border: none;
+  outline: none;
+  background-color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.searchbox input{
+  
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+.cart{
+  padding-left: 10px;
+}
+.cart button{
+ border-radius: 50%;
+  border: 1px solid #DADADA;
+  width: 45px;
+height: 45px;
+background-color: white;
+cursor: pointer;
+
+}
+.profile{
+  padding-left: 10px;
+}
+.profile button{
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #DADADA;
+  background-color:#E4E4E4 ;
+  width: 45px;
+height: 45px;
+}

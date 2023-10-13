@@ -1,0 +1,34 @@
+.maufatureItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+  }
+  
+  .maufactureItemImage {
+    width: 100%;
+    height: 85%;
+  }
+  
+  .maufactureItemImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .manufactureLogo {
+    width: 100%;
+    height: 50px;
+  }
+  
+  .manufactureLogo > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .maufatureItem > p {
+    font-size: 14px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+  }
